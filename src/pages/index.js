@@ -1,9 +1,6 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 export default function Home() {
-  return (
-    <div>
-      <h1>Clone YT</h1>
-    </div>
-  );
+  return <Layout title="YouTube">Clone YouTube</Layout>;
 }
